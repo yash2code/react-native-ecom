@@ -1,14 +1,15 @@
 import React from 'react'
 import Octicon from 'react-native-vector-icons/Octicons'
 import Icon from 'react-native-vector-icons/FontAwesome'
+import MIcon from 'react-native-vector-icons/MaterialIcons'
 
 export const FontIcons = {
     login: <Octicon name="lock" size={30} color="#900" />,
-    navigation: '',
-    article: '',
-    profile: '',
-    mail: '',
-    dashboard: '',
+    store: <MIcon name="local-grocery-store" size={30} color="#900" />,
+    balance: <MIcon name="account-balance-wallet" size={30} color="#900" />,
+    payment: <MIcon name="payment" size={30} color="#900" />,
+    reward: <MIcon name="grade" size={30} color="#900" />,
+    setting: <MIcon name="settings" size={30} color="#900" />,
     mobile: '',
     other: '',
     theme: '',

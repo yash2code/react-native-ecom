@@ -22,9 +22,11 @@ let flatRoutes = {};
 
   flatRoutes[route.id] = wrapToRoute(route);
   main[route.id] = wrapToRoute(route);
+  if(route.children){
   for (let child of route.children) {
     flatRoutes[child.id] = wrapToRoute(child);
   }
+}
 });
 
 let ThemedNavigationBar = withRkTheme(NavBar);

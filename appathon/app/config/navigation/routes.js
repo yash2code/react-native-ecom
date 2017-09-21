@@ -29,6 +29,36 @@ export const MainRoutes = [
       },
     ]
   },
+  {
+    id: 'Store',
+    title: 'Store',
+    icon: FontIcons.store,
+    screen: Screens.LoginMenu,
+  },
+  {
+    id: 'Balance',
+    title: 'Wallet',
+    icon: FontIcons.balance,
+    screen: Screens.LoginMenu,
+  },
+  {
+    id: 'Transactions',
+    title: 'Transactions',
+    icon: FontIcons.payment,
+    screen: Screens.LoginMenu,
+  },
+  {
+    id: 'Rewards',
+    title: 'Rewards',
+    icon: FontIcons.reward,
+    screen: Screens.LoginMenu,
+  },
+  {
+    id: 'Settings',
+    title: 'Settings',
+    icon: FontIcons.setting,
+    screen: Screens.LoginMenu,
+  },
   
 ];
 
