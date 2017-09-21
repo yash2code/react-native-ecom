@@ -23,7 +23,7 @@ const users = [{
   password: '123456',
   newPassword: '12345678',
   confirmPassword: '12345678',
-  photo: require('../img/avatars/Image 9.png'),
+  photo: require('../img/avatars/Image9.png'),
   postCount: 86,
   followersCount: 22102,
   followingCount: 536,
