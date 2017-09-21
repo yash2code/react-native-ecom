@@ -34,14 +34,17 @@ export class Settings extends React.Component {
   }
 
   render() {
+    let navigate = this.props.navigation.navigate;
     return (
       <ScrollView style={styles.container}>
         <View style={styles.section}>
           <View style={[styles.row, styles.heading]}>
+            
             <RkText rkType='primary header6'>PROFILE SETTINGS</RkText>
+           
           </View>
           <View style={styles.row}>
-            <TouchableOpacity style={styles.rowButton}>
+            <TouchableOpacity style={styles.rowButton} onPress={() => navigate('Profile')}>
               <RkText rkType='header6'>Edit Profile</RkText>
             </TouchableOpacity>
           </View>

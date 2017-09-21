@@ -53,4 +53,5 @@ const DrawerRoutes = Object.keys(main).reduce((routes, name) => {
 
 export const AppRoutes = DrawerRoutes;
 export const LoginRoutes = _.find(MainRoutes, {id: 'LoginMenu'}).children;
+export const OtherRoutes = _.find(MainRoutes, {id: 'Settings'});
 

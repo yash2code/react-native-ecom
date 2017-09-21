@@ -57,7 +57,7 @@ export const MainRoutes = [
     id: 'Settings',
     title: 'Settings',
     icon: FontIcons.setting,
-    screen: Screens.LoginMenu,
+    screen: Screens.Settings,
   },
   
 ];
