@@ -32,6 +32,9 @@ const KittenApp = StackNavigator({
   Profile: {
     screen: Screens.ProfileSettings
   },
+  Cards: {
+    screen: Screens.Cards
+  },
   Home: {
     screen: DrawerNavigator({
         ...AppRoutes,

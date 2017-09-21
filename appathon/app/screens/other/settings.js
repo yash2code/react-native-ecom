@@ -49,8 +49,8 @@ export class Settings extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={styles.row}>
-            <TouchableOpacity style={styles.rowButton}>
-              <RkText rkType='header6'>Change Password</RkText>
+            <TouchableOpacity style={styles.rowButton} onPress={() => navigate('Cards')}>
+              <RkText rkType='header6'>Your Cards</RkText>
             </TouchableOpacity>
           </View>
           <View style={styles.row}>
@@ -61,7 +61,7 @@ export class Settings extends React.Component {
                       onValueChange={(sendPush) => this.setState({sendPush})}/>
           </View>
           <View style={styles.row}>
-            <RkText rkType='header6'>Refresh Automatically</RkText>
+            <RkText rkType='header6'>SMS Notifications</RkText>
             <RkSwitch style={styles.switch}
                       value={this.state.shouldRefresh}
                       name="Refresh"

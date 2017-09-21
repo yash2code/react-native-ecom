@@ -16,6 +16,7 @@ import {Avatar} from '../../components';
 import {SocialSetting} from '../../components';
 import {FontAwesome} from '../../assets/icons';
 import {GradientButton} from '../../components';
+import {NavBar} from '../../components/index';
 
 export class ProfileSettings extends React.Component {
   static navigationOptions = {
@@ -126,7 +127,9 @@ export class ProfileSettings extends React.Component {
               <SocialSetting name='Facebook' icon={FontAwesome.facebook} tintColor={RkTheme.current.colors.facebook}/>
             </View>
           </View>
-          <GradientButton rkType='large' style={styles.button} text='SAVE'/>
+          <GradientButton onPress={() => {
+            this.props.navigation.goBack()
+          }} rkType='large' style={styles.button} text='SAVE'/>
         </RkAvoidKeyboard>
       </ScrollView>
     )

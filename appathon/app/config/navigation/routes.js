@@ -11,7 +11,7 @@ export const MainRoutes = [
     children: [
       {
         id: 'Login1',
-        title: 'Login V1',
+        title: 'Login',
         screen: Screens.LoginV1,
         children: []
       },
