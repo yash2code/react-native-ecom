@@ -21,9 +21,9 @@ export const FontIcons = {
   };
   
   export const FontAwesome = {
-    heart: String.fromCharCode(61444),
-    comment: String.fromCharCode(61669),
-    user: String.fromCharCode(62144),
+    heart: <Icon name="heart" size={20} color="red" />,
+    comment: <Icon name="dollar" size={20} />,
+    user: <Icon name="star-o" size={20} />,
     twitter: <Icon name="twitter" size={30} color={RkTheme.current.colors.twitter} />,
     google: <Icon name="google" size={30} color={RkTheme.current.colors.google} />,
     facebook: <Icon name="facebook" size={30} color={RkTheme.current.colors.facebook} />,

@@ -33,6 +33,7 @@ Article.schema = {
     photo: {type: 'int', optional: true},
     time: 'int',
     type: 'string',
+    name: 'string',
     user: {type: 'User', optional: true},
     comments: {type: 'list', objectType: 'Comment'}
   }

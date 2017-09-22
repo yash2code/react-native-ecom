@@ -33,7 +33,7 @@ export const MainRoutes = [
     id: 'Store',
     title: 'Store',
     icon: FontIcons.store,
-    screen: Screens.LoginMenu,
+    screen: Screens.Articles1,
   },
   {
     id: 'Balance',

@@ -7,4 +7,6 @@ export * from './avatar';
 export * from './socialSetting';
 export * from './passwordTextInput';
 export * from './cardInput';
+export * from './socialBar';
+
 

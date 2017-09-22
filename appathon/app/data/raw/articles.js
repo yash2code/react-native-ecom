@@ -1,9 +1,10 @@
 const articles = [{
   'id': 1,
-  'photo': require('../img/photo1.png'),
+  'photo': require('../img/iphone-x.png'),
   'type': 'article',
+  'name': 'Apple',
   'time': -300,
-  'header': 'Plants Of Our Nature',
+  'header': 'iPhone X',
   'text': 'Ferns are a very old group of plants. They first appeared on Earth in the middle Devonian Era about 360 million years ago, just before the Carboniferous Era. Most of the modern fern families we see today first appeared in the Late Cretaceous about 45 or 50 million years ago – during the age of the dinosaurs!',
   'comments': [{
     'id': 1,
@@ -40,10 +41,11 @@ const articles = [{
   }]
 }, {
   'id': 2,
-  'photo': require('../img/photo2.png'),
+  'photo': require('../img/s8.jpg'),
   'type': 'article',
+  'name': 'Samsung',  
   'time': -1373,
-  'header': 'Balloon Trip',
+  'header': 'S8',
   'text': 'Mostly it’s about hot air - for without that balloons are just big empty bags with baskets on the bottom. ' +
   'The Montgolfier brothers had great hopes when they made the first manned flight. ' +
   'They thought balloons would take off as an available means of commercial flight. ' +
@@ -54,29 +56,32 @@ const articles = [{
   'comments': []
 }, {
   'id': 3,
-  'photo': require('../img/photo3.png'),
+  'photo': require('../img/mia1.png'),
   'type': 'article',
+  'name': 'Xiaomi',
   'time': -2446,
-  'header': 'Sea World',
+  'header': 'MI A1',
   'text': 'The worlds oceans cover two thirds of our planet. As we take a dive from the rocks or paddle out from the beach, we are entering a place which is teeming with marine life. ' +
   'From fish to crabs to octopuses or even sea creatures that have not yet been discovered, the oceans and its coastlines are an amazing and interesting foray of water wildlife.',
   'comments': []
 }, {
   'id': 4,
-  'photo': require('../img/photo4.png'),
+  'photo': require('../img/mate10.jpg'),
   'type': 'article',
+  'name': 'Huawei',
   'time': -3519,
-  'header': 'Flowers',
+  'header': 'Mate 10',
   'text': 'Flowers did not always exist; they first appeared 140 million years ago. Before that, ferns and cone bearing trees dominated the earth. ' +
   'Several centuries ago in Holland, tulips were more valuable than gold. ' +
   'Broccoli is actually a flower. Some plants such as orchids do not need soil to grow-they get all of their nutrients from the air.',
   'comments': []
 }, {
   'id': 5,
-  'photo': require('../img/photo5.png'),
+  'photo': require('../img/note8.jpg'),
   'type': 'article',
+  'name': 'Samsung',
   'time': -4592,
-  'header': 'Birds Of Our Planet',
+  'header': 'Note 8',
   'text': 'Birds have feathers, wings, lay eggs and are warm blooded. There are around 10000 different species of birds worldwide. ' +
   'The Ostrich is the largest bird in the world. It also lays the largest eggs and has the fastest maximum running speed (97 kph). ' +
   'Scientists believe that birds evolved from theropod dinosaurs. Birds have hollow bones which help them fly. ' +
@@ -84,10 +89,11 @@ const articles = [{
   'comments': []
 }, {
   'id': 6,
-  'photo': require('../img/photo6.png'),
+  'photo': require('../img/8plus.jpg'),
   'type': 'article',
+  'name': 'Apple',
   'time': -5665,
-  'header': 'Mountains',
+  'header': 'iPhone 8 Plus',
   'text': 'Mountains make up about one-fifth of the world\'s landscape, and provide homes to at least one-tenth of the world\'s people. ' +
   'The tallest known mountain in the solar system is Olympus Mons, located on Mars. ' +
   'There are mountains under the surface of the sea! ' +
@@ -97,6 +103,7 @@ const articles = [{
   'id': 7,
   'photo': require('../img/photo45.png'),
   'type': 'fact',
+  'name': 'Apple',
   'time': -5665,
   'header': 'Smile and Frown',
   'text': 'It takes 17 muscles to smile and 43 to frown.',
@@ -105,6 +112,7 @@ const articles = [{
   'id': 8,
   'photo': require('../img/photo46.png'),
   'type': 'fact',
+  'name': 'Apple',
   'time': -8373,
   'header': 'Interesting Fact',
   'text': 'Dolphins sleep with one eye open.',
@@ -113,6 +121,7 @@ const articles = [{
   'id': 9,
   'photo': require('../img/photo47.png'),
   'type': 'fact',
+  'name': 'Apple',
   'time': -565,
   'header': 'Elephant',
   'text': 'Elephant is one of the few mammals that can\'t jump.',
@@ -121,6 +130,7 @@ const articles = [{
   'id': 10,
   'photo': require('../img/photo48.png'),
   'type': 'fact',
+  'name': 'Apple',
   'time': -52365,
   'header': 'Cold Water',
   'text': 'Cold water weighs less than hot water.',
@@ -129,6 +139,7 @@ const articles = [{
   'id': 11,
   'photo': require('../img/photo49.png'),
   'type': 'fact',
+  'name': 'Apple',
   'time': -1295,
   'header': 'Our Eyes',
   'text': 'You blink over 10,000,000 times a year.',
@@ -137,6 +148,7 @@ const articles = [{
   'id': 12,
   'photo': require('../img/photo17.png'),
   'type': 'post',
+  'name': 'Apple',
   'time': -300,
   'title': 'My Little Kitten',
   'text': 'I have got a cat. Her name is Matilda. She is quite old for a cat. She is eleven years old. Matilda is very' +
@@ -147,6 +159,7 @@ const articles = [{
   'id': 13,
   'photo': require('../img/photo18.png'),
   'type': 'post',
+  'name': 'Apple',
   'time': -1373,
   'header': 'Interesting Fact',
   'text': 'One chef prepared a delicious cake with apples and named it in honor of his beloved Charlotte.',
@@ -155,6 +168,7 @@ const articles = [{
   'id': 14,
   'photo': require('../img/photo19.png'),
   'type': 'post',
+  'name': 'Apple',
   'time': -2446,
   'header': 'Music In Our Life',
   'text': 'The scientists say that they can define your character if they know what music you like.',
@@ -163,6 +177,7 @@ const articles = [{
   'id': 15,
   'photo': require('../img/photo20.png'),
   'type': 'post',
+  'name': 'Apple',
   'time': -3519,
   'header': 'Exciting Adventure',
   'text': 'My trip to Spain last summer. I think that it was the most interesting trip in my life.',
