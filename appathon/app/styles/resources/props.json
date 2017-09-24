@@ -1,0 +1,26 @@
+{
+  "fonts": {
+    "default": "Source Sans Pro"
+  },
+  "colors": {
+    "transparent": "transparent",
+    "black20": "rgba(0,0,0,0.2)",
+    "black40": "rgba(0,0,0,0.4)",
+    "black50": "rgba(0,0,0,0.5)",
+    "green": "#7ed04d",
+    "grey": "#bcc0c8",
+    "lightGrey": "#eaeaea",
+    "black": "#292c34",
+    "pink": "#e8436f",
+    "window": "#f8f9f9",
+    "white": "#ffffff",
+    "blue": "#30A5DA",
+
+    "dashboard0": "#e06485",
+    "dashboard1": "#db5478",
+    "dashboard2": "#db426b",
+    "dashboard3": "#d33e66",
+    "dashboard4": "#d6335f",
+    "dashboard5": "#c43057"
+  }
+}

@@ -39,13 +39,13 @@ export const MainRoutes = [
     id: 'Balance',
     title: 'Wallet',
     icon: FontIcons.balance,
-    screen: Screens.LoginMenu,
+    screen: Screens.Wallet,
   },
   {
     id: 'Transactions',
-    title: 'Transactions',
+    title: 'Notifications',
     icon: FontIcons.payment,
-    screen: Screens.LoginMenu,
+    screen: Screens.Notifications,
   },
   {
     id: 'Rewards',

@@ -2,57 +2,57 @@ const notifications = [
   {
     id: 1,
     type: 'follow',
-    description: 'liked profile page for Dribbble App Design Concept',
-    time: -1
+    description: 'purchased iPhone X for $999',
+    time: -1,
   }, {
     id: 2,
     type: 'like',
-    description: 'liked a photo on your album',
+    description: 'added Samsung S8 to wishlist',
     time: -271,
-    attach: require('../img/Image 8.png'),
+   
   }, {
     id: 3,
     type: 'like',
-    description: 'liked a photo on your album',
+    description: 'received reward of $12.48',
     time: -541,
-    attach: require('../img/Image 8.png'),
+    
   }, {
     id: 4,
     type: 'like',
-    description: 'liked profile page for Dribbble App Design Concept',
-    time: -811
+    description: 'purchased iPhone X for $999',
+    time: -811,
   }, {
     id: 5,
     type: 'like',
-    description: 'liked profile page for Dribbble App Design Concept',
-    time: -1081
+    description: 'purchased iPhone X for $999',
+    time: -1081,
   }, {
     id: 6,
     type: 'follow',
-    description: 'followed you UI/UX Designer and Interaction Designer',
-    time: -1351
+    description: 'purchased iPhone X for $999',
+    time: -1351,
   }, {
     id: 7,
     type: 'follow',
-    description: 'liked a photo on your album',
+    description: 'purchased iPhone X for $999',
     time: -1621,
-    attach: require('../img/Image 8.png'),
+   
   }, {
     id: 8,
     type: 'follow',
-    description: 'followed you iOS Developer and Graphic Designer',
-    time: -1891
+    description: 'purchased iPhone X for $999',
+    time: -1891,
   }, {
     id: 9,
     type: 'follow',
-    description: 'liked profile page for Dribbble App Design Concept',
-    time: -2161
+    description: 'received reward of $12.48',
+    time: -2161,
   }, {
     id: 10,
     type: 'like',
-    description: 'liked a photo on your album',
+    description: 'purchased iPhone X for $999',
     time: -2431,
-    attach: require('../img/Image 8.png'),
+    
   }
 ];
 

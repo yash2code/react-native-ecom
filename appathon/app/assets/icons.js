@@ -10,7 +10,7 @@ export const FontIcons = {
     login: <Octicon name="lock" size={30} color="#900" />,
     store: <MIcon name="local-grocery-store" size={30} color="#900" />,
     balance: <MIcon name="account-balance-wallet" size={30} color="#900" />,
-    payment: <MIcon name="payment" size={30} color="#900" />,
+    payment: <MIcon name="notifications-active" size={30} color="#900" />,
     reward: <MIcon name="grade" size={30} color="#900" />,
     setting: <MIcon name="settings" size={30} color="#900" />,
     mobile: '',
