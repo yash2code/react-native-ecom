@@ -16,13 +16,13 @@ export default class WalletScreen extends React.Component {
 
         return(
          <View style={{flex: 1}}>
-            <Header title="Wallet" />
+            
             <View style={StyleSheet.padding}>
                 <View style={{ alignItems: "center"}}>
                 {/* values to be replaced with real ones*/}
                     <BankInfoCard
-                        name="Yash"
-                        surname="Chaudhary"
+                        name="Helen"
+                        surname="Gilbert"
                         bankName="Loyds"
                         accountNumber="00012345"
                         sortCode="20-55-34"

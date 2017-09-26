@@ -20,8 +20,8 @@ export default class Wallet extends React.Component {
       price = Math.floor((Math.random() * 1000) + 1)
       let userX = {
         id: i,
-        name: 'Yash',
-        secondName: 'Chaudhary',
+        name: 'Helen',
+        secondName: 'Gilbert',
         activity: 'Mobile',
         price: price,
         imageSrc: 'https://facebook.github.io/react/img/logo_og.png',
@@ -37,8 +37,8 @@ export default class Wallet extends React.Component {
 
       let user = {
         id: i,
-        name: 'Yash',
-        secondName: 'Chaudhary',
+        name: 'Helen',
+        secondName: 'Gilbert',
         activity: 'Mobile',
         price: price,
         overlay:  randomNumber === 1 ? 'pending' : randomNumber === 2 ? 'cancelled' : null,

@@ -48,10 +48,10 @@ export const MainRoutes = [
     screen: Screens.Notifications,
   },
   {
-    id: 'Rewards',
-    title: 'Rewards',
-    icon: FontIcons.reward,
-    screen: Screens.LoginMenu,
+    id: 'Themes',
+    title: 'Themes',
+    icon: FontIcons.theme,
+    screen: Screens.Themes,
   },
   {
     id: 'Settings',
@@ -59,6 +59,7 @@ export const MainRoutes = [
     icon: FontIcons.setting,
     screen: Screens.Settings,
   },
+  
   
 ];
 

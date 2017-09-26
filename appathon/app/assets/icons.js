@@ -2,6 +2,7 @@ import React from 'react'
 import Octicon from 'react-native-vector-icons/Octicons'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import MIcon from 'react-native-vector-icons/MaterialIcons'
+import MCIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import {
   RkTheme
 } from 'react-native-ui-kitten'
@@ -15,7 +16,7 @@ export const FontIcons = {
     setting: <MIcon name="settings" size={30} color="#0099CC" />,
     mobile: '',
     other: '',
-    theme: '',
+    theme: <MCIcon name="theme-light-dark" size={30} color="#0099CC" />,
     card: '',
     addToCardForm: '',
   };
@@ -30,9 +31,9 @@ export const FontIcons = {
     plus: String.fromCharCode(61543),
     search: String.fromCharCode(61442),
     smile: String.fromCharCode(61720),
-    chevronRight: <Icon name="chevron-right" size={15} color="#000" />,
-    chevronLeft: <Icon name="chevron-left" size={15} color="#000" />,
-    bars: <Icon name="bars" size={15} color="#000" />,
-    slashEye: <Icon name="eye-slash" size={30} color="#000" />,
+    chevronRight: <Icon name="chevron-right" size={15} color="#CCCCFF" />,
+    chevronLeft: <Icon name="chevron-left" size={15} color="#CCCCFF" />,
+    bars: <Icon name="bars" size={15} color="#CCCCFF" />,
+    slashEye: <Icon name="eye-slash" size={30} color="#CCCCFF" />,
     github: String.fromCharCode(61595),
   };

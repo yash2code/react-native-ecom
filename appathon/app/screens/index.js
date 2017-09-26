@@ -5,3 +5,4 @@ export * from './menu';
 export * from './social';
 export * from './eCommerce';
 export * from './articles';
+export * from './theme';

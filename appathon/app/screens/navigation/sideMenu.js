@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  TouchableHighlight,
+  TouchableOpacity,
   View,
   ScrollView,
   Image,
@@ -37,14 +37,14 @@ export class SideMenu extends React.Component {
   _renderIcon() {
     if (RkTheme.current.name === 'light')
       return <Image style={styles.icon} source={require('../../assets/images/smallecom.png')}/>;
-    return <Image style={styles.icon} source={require('../../assets/images/smallLogoDark.png')}/>
+    return <Image style={styles.icon} source={require('../../assets/images/smallecom.png')}/>
 
   }
 
   render() {
     let menu = MainRoutes.map((route, index) => {
       return (
-        <TouchableHighlight
+        <TouchableOpacity
           style={styles.container}
           key={route.id}
           underlayColor={RkTheme.current.colors.button.underlay}
@@ -58,7 +58,7 @@ export class SideMenu extends React.Component {
             </View>
             <RkText rkType='awesome secondaryColor small'>{FontAwesome.chevronRight}</RkText>
           </View>
-        </TouchableHighlight>
+        </TouchableOpacity>
       )
     });
 
@@ -68,7 +68,9 @@ export class SideMenu extends React.Component {
           showsVerticalScrollIndicator={false}>
           <View style={[styles.container, styles.content]}>
             {this._renderIcon()}
+            <TouchableOpacity onPress = { () => this.props.navigation.navigate('Home')}>
             <RkText rkType='logo'>XYZ</RkText>
+            </TouchableOpacity>
           </View>
           {menu}
         </ScrollView>
@@ -79,7 +81,7 @@ export class SideMenu extends React.Component {
 
 let styles = RkStyleSheet.create(theme => ({
   container: {
-    height: 80,
+    height: 88,
     paddingHorizontal: 16,
     borderTopWidth: StyleSheet.hairlineWidth,
     borderColor: theme.colors.border.base

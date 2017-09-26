@@ -28,7 +28,7 @@ export class SignUp extends React.Component {
     let renderIcon = () => {
       if (RkTheme.current.name === 'light')
         return <Image style={styles.image} source={require('../../assets/images/ecom4.png')}/>;
-      return <Image style={styles.image} source={require('../../assets/images/logoDark.png')}/>
+      return <Image style={styles.image} source={require('../../assets/images/ecom4.png')}/>
     };
     return (
       <RkAvoidKeyboard
