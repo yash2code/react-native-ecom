@@ -2,6 +2,7 @@ import React from 'react'
 import {View, Text, ScrollView} from 'react-native'
 
 import StyleSheet from '../../styles'
+import {GradientButton} from '../../components/'
 import {calculateDisplayData} from '../../utils'
 import {Header, BankInfoCard, Title, UserListInWallet, Button} from '../../components'
 
@@ -47,12 +48,9 @@ export default class WalletScreen extends React.Component {
                     })}
                 </ScrollView>
                 <View style={StyleSheet.walletScreen.button}>
-                    <Button
-                        onPress={() => this.props.navigate.goBack()}
-                        type="roundedDefault"
-                        text="ALL TRANSACTIONS"
-                        style={[StyleSheet.singleMargin]}
-                    />
+                <GradientButton onPress={() => {
+            this.props.navigate.goBack()
+          }} rkType='large' text='All Transactions' style={{marginVertical:9}}/>
                 </View>
             </View>
         </View>

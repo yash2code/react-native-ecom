@@ -15,6 +15,7 @@ import {
 } from 'react-native-ui-kitten';
 import {MainRoutes} from '../../config/navigation/routes';
 import {FontAwesome} from '../../assets/icons';
+import {scale, scaleModerate, scaleVertical} from '../../utils/scale';
 
 export class SideMenu extends React.Component {
 
@@ -35,7 +36,7 @@ export class SideMenu extends React.Component {
 
   _renderIcon() {
     if (RkTheme.current.name === 'light')
-      return <Image style={styles.icon} source={require('../../assets/images/smallLogo.png')}/>;
+      return <Image style={styles.icon} source={require('../../assets/images/smallecom.png')}/>;
     return <Image style={styles.icon} source={require('../../assets/images/smallLogoDark.png')}/>
 
   }
@@ -67,7 +68,7 @@ export class SideMenu extends React.Component {
           showsVerticalScrollIndicator={false}>
           <View style={[styles.container, styles.content]}>
             {this._renderIcon()}
-            <RkText rkType='logo'>UI Kitten</RkText>
+            <RkText rkType='logo'>XYZ</RkText>
           </View>
           {menu}
         </ScrollView>
@@ -93,6 +94,6 @@ let styles = RkStyleSheet.create(theme => ({
     alignItems: 'center'
   },
   icon: {
-    marginRight: 13,
+    marginRight: 13
   }
 }));

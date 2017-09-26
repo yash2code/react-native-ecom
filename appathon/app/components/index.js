@@ -14,7 +14,7 @@ export {default as Button} from './button'
 export {default as HighlightText} from './highlight-text'
 export {default as Icon} from './icon'
 export {default as BankInfoCard} from './bank-info-card'
-export {default as Avatar} from './avatar'
+export {default as Avatar1} from './avatar1'
 export {default as UserListInWallet} from './user-list-in-wallet'
 
 

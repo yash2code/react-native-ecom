@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View, Text} from 'react-native'
 
-import {Avatar} from './'
+import {Avatar1} from './'
 import StyleSheet from '../styles'
 
 export default class UserListInWallet extends Component {
@@ -22,7 +22,7 @@ export default class UserListInWallet extends Component {
         )}
         <View style={StyleSheet.walletScreen.UserListInWallet.mainContentContainer}>
           <View style={StyleSheet.walletScreen.UserListInWallet.imageContainer}>
-           <Avatar title={user.name} overlay={user.overlay} avatarStyle={StyleSheet.walletScreen.UserListInWallet.avatarStyle} />
+           <Avatar1 title={user.name} overlay={user.overlay} avatarStyle={StyleSheet.walletScreen.UserListInWallet.avatarStyle} />
           </View>
           <View style={StyleSheet.walletScreen.UserListInWallet.textContainer}>
             <Text style={[StyleSheet.text, StyleSheet.walletScreen.UserListInWallet.textStyle]} numberOfLines={1} ellipsizeMode="tail">

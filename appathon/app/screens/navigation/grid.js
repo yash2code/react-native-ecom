@@ -12,7 +12,7 @@ const paddingValue = 8;
 
 export class GridV1 extends React.Component {
   static navigationOptions = ({navigation}) => ({
-    title: 'Grid Menu'.toUpperCase(),
+    title: 'Menu'.toUpperCase(),
   });
 
   constructor(props) {

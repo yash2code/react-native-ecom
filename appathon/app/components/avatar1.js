@@ -3,7 +3,7 @@ import {Image, Text, TouchableOpacity, View} from 'react-native'
 
 import StyleSheet from '../styles'
 
-export default class Avatar extends React.Component {
+export default class Avatar1 extends React.Component {
 
   getAvatarColor() {
     const userName = this.props.title
@@ -138,7 +138,7 @@ const defaultStyles = {
   },
 }
 
-Avatar.propTypes = {
+Avatar1.propTypes = {
   onPress: React.PropTypes.func,
   imageUrl: React.PropTypes.string,
   title: React.PropTypes.string.isRequired,

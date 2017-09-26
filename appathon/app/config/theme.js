@@ -2,11 +2,11 @@ import {scale, scaleVertical} from '../utils/scale'
 
 const Colors = {
   accent: '#0099CC',
-  primary: '#f64e59',
+  primary: '#36648B',
   success: '#3bd555',
   disabled: '#cacaca',
 
-  foreground: '#212121',
+  foreground: '#0099CC',
   alterForeground: '#707070',
   inverseForeground: '#ffffff',
   secondaryForeground: '#bcbcbc',
@@ -24,8 +24,8 @@ const Colors = {
   google: '#e94335',
   facebook: '#3b5998',
 
-  gradientBaseBegin: '#ff9147',
-  gradientBaseEnd: '#ff524c',
+  gradientBaseBegin: '#0099CC',
+  gradientBaseEnd: '#36648B',
   gradientVisaBegin:'#63e2ff',
   gradientVisaEnd:'#712ec3',
   gradientMasterBegin:'#febb5b',

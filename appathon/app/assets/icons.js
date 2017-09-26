@@ -7,12 +7,12 @@ import {
 } from 'react-native-ui-kitten'
 
 export const FontIcons = {
-    login: <Octicon name="lock" size={30} color="#900" />,
-    store: <MIcon name="local-grocery-store" size={30} color="#900" />,
-    balance: <MIcon name="account-balance-wallet" size={30} color="#900" />,
-    payment: <MIcon name="notifications-active" size={30} color="#900" />,
-    reward: <MIcon name="grade" size={30} color="#900" />,
-    setting: <MIcon name="settings" size={30} color="#900" />,
+    login: <Octicon name="lock" size={30} color="#0099CC" />,
+    store: <MIcon name="local-grocery-store" size={30} color="#0099CC" />,
+    balance: <MIcon name="account-balance-wallet" size={30} color="#0099CC" />,
+    payment: <MIcon name="notifications-active" size={30} color="#0099CC" />,
+    reward: <MIcon name="grade" size={30} color="#0099CC" />,
+    setting: <MIcon name="settings" size={30} color="#0099CC" />,
     mobile: '',
     other: '',
     theme: '',
@@ -30,9 +30,9 @@ export const FontIcons = {
     plus: String.fromCharCode(61543),
     search: String.fromCharCode(61442),
     smile: String.fromCharCode(61720),
-    chevronRight: <Icon name="chevron-right" size={30} color="#000" />,
-    chevronLeft: <Icon name="chevron-left" size={30} color="#000" />,
-    bars: <Icon name="bars" size={30} color="#000" />,
+    chevronRight: <Icon name="chevron-right" size={15} color="#000" />,
+    chevronLeft: <Icon name="chevron-left" size={15} color="#000" />,
+    bars: <Icon name="bars" size={15} color="#000" />,
     slashEye: <Icon name="eye-slash" size={30} color="#000" />,
     github: String.fromCharCode(61595),
   };

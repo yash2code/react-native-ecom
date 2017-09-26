@@ -33,7 +33,7 @@ export class LoginV1 extends React.Component {
 
     if (RkTheme.current.name === 'light')
       image = (<Image style={[styles.image, {height, width}]}
-                      source={require('../../assets/images/backgroundLoginV1.png')}/>);
+                      source={require('../../assets/images/ecom3.jpg')}/>);
     else
       image = (<Image style={[styles.image, {height, width}]}
                       source={require('../../assets/images/backgroundLoginV1DarkTheme.png')}/>);
