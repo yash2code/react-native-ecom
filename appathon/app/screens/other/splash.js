@@ -60,10 +60,11 @@ export class SplashScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Image style={[styles.image, {width}]} source={require('../../assets/images/splashBack.png')}/>
+          <Image style={[styles.image, {width}]} source={require('../../assets/images/ecom3.jpg')}/>
           <View style={styles.text}>
-            <RkText rkType='light' style={styles.hero}>React Native</RkText>
-            <RkText rkType='logo' style={styles.appName}>UI Kitten</RkText>
+          <RkText rkType='logo' style={styles.appName}>XYZ</RkText>
+            <RkText rkType='light' style={styles.hero}>E-Commerce</RkText>
+            
           </View>
         </View>
         <ProgressBar
@@ -97,6 +98,6 @@ let styles = StyleSheet.create({
   progress: {
     alignSelf: 'center',
     marginBottom: 35,
-    backgroundColor: '#e5e5e5'
+    backgroundColor: '#FFFFFF'
   }
 });
